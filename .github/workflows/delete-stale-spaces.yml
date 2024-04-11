@@ -1,7 +1,7 @@
 name: Delete Stale Spaces
 
 on:
-  schedule:
+  notschedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
